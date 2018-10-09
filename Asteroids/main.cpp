@@ -1,7 +1,9 @@
 #include <iostream>
+#include "logica.h"
+
 
 void main() {
 
-	empezar_juego();
+	inicio();
 
 }
