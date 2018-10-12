@@ -2,9 +2,9 @@
 
 namespace Asteroids {
 	namespace logica {
-	enum pantallas { JUEGO, MENU, CREDITOS, GAME_OVER } pantalla_actual;
-	bool juego_corriendo = true;
-}
+		enum pantallas { JUEGO, MENU, CREDITOS, GAME_OVER } pantalla_actual;
+		bool juego_corriendo = true;
+	}
 }
 
 void inicio() {
@@ -21,7 +21,7 @@ void inicio() {
 		{
 		case JUEGO:
 		{
-			//Llamar a la pantalla juego
+			//Pantalla juego
 		}break;
 		case MENU:
 		{
